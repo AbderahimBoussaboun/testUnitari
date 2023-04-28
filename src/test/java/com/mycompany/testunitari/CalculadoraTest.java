@@ -12,13 +12,15 @@ import static org.junit.Assert.*;
 public class CalculadoraTest {
     
     public CalculadoraTest() {
-    }
+    } 
+    
+
 
     @Test
-    public void testSomeMethod() {
+    public void testMultiplicacio() {
         Calculadora calculadora =new Calculadora (72,89);
-        int expected=161;
-        int result=calculadora.suma();
+        int expected=6408;
+        int result=calculadora.multiplicacio();
         assertEquals(expected,result);
     }
     

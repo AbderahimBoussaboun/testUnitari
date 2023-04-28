@@ -63,5 +63,5 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mycompany.testunitari.CalculadoraTest" name="testSomeMethod" time="0.003"/>
+  <testcase classname="com.mycompany.testunitari.CalculadoraTest" name="testMultiplicacio" time="0.003"/>
 </testsuite>
